@@ -4,7 +4,7 @@ class Solution {
         for (int i = 1; i < height.length; i++) {
             int n = height[i - 1];
             if (n > threshold && i != 0)
-                arr.add(i);
+                arr.add(i); 
         }
         return arr;
     }
