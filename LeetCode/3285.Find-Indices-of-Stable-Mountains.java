@@ -5,7 +5,7 @@ class Solution {
             int n = height[i - 1];
             if (n > threshold && i != 0)
                 arr.add(i); 
-        }
+        } 
         return arr;
     }
 }
