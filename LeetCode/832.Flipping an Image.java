@@ -12,6 +12,7 @@ class Solution {
                 r--;
             }
         }
+
         for (i = 0; i < image.length; i++) {
             for (j = 0; j < image[0].length; j++) {
                 if (image[i][j] == 0) {
