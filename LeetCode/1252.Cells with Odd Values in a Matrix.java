@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public int oddCells(int m, int n, int[][] indices) {
         int[][] mat = new int[m][n];
         for (int x = 0; x < indices.length; x++) {
