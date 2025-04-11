@@ -4,7 +4,7 @@ class Solution {
         for (int x = 0; x < indices.length; x++) {
             int i = indices[x][0];
             int j = indices[x][1];
-            for (int p = 0; p < n; p++) {
+            for (int p = 0; p < n; p++) {  
                 mat[i][p]++;
             }
             for (int q = 0; q < m; q++) {
