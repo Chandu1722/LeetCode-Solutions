@@ -2,7 +2,6 @@ class Solution {
     public boolean isPalindrome(String s) {
         StringBuilder str = new StringBuilder();
         for (char ch : s.toCharArray()) {
-
             if (Character.isLetter(ch) || Character.isDigit(ch))
                 str.append(Character.toLowerCase(ch));
         }
