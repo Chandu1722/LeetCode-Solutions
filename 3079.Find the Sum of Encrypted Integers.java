@@ -4,7 +4,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             sum += encrypt(nums[i]);
         }
-        return sum;
+        return sum; 
     }
 
     public static int encrypt(int x) {
