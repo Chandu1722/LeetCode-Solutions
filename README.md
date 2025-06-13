@@ -1,2 +1,2 @@
 # LeetCode-Solutions
-Solutions for LeetCode problems written in Java
+Solutions for LeetCode problems 
