@@ -6,7 +6,6 @@ class Solution {
         }
         return sum; 
     }
-
     public static int encrypt(int x) {
         int j = 0;
         int max = Integer.MIN_VALUE;
