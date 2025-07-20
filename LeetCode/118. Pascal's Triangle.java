@@ -1,4 +1,4 @@
-class Solution {
+ class Solution {
     public List<List<Integer>> generate(int n) {
         List<List<Integer>> arr = new ArrayList<>();
         for (int i = 0; i < n; i++) {
