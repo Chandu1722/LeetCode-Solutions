@@ -4,7 +4,7 @@
         for (int i = 0; i < n; i++) {
             List<Integer> row = new ArrayList<>();
             int num = 1;
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j <= i; j++) { 
                 row.add(num);  
                 num = num * (i - j) / (j + 1);
             }
