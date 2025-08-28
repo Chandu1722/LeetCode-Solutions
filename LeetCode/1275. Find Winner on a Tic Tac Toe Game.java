@@ -22,11 +22,11 @@ class Solution {
                     tic[0][i] == player && tic[1][i] == player && tic[2][i] == player) {
                 return true;
             }
-            if (tic[0][0] == player && tic[1][1] == player && tic[2][2] == player ||
+        }
+        if (tic[0][0] == player && tic[1][1] == player && tic[2][2] == player ||
                     tic[2][0] == player && tic[1][1] == player && tic[0][2] == player) {
                 return true;
             }
-        }
         return false;
     }
 }
