@@ -18,7 +18,7 @@ class Solution {
         }
         if (j == 2)
             return 11 * max;
-        else if (j == 3)
+        else if (j == 3) 
             return 111 * max; 
         else if (j == 4)
             return 1111 * max;
